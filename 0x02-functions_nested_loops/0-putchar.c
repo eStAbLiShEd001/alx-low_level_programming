@@ -5,14 +5,14 @@
  *
  * Return: Always (0)
  */
-
-int main(void) {
-
-char myArray[10] = "_putchar";
+int main(void)
+{
+char c[8] = "_putchar";
 int i;
-
-for(i = 0; i < 8; i++) {
-    printf("%s\n", myArray);
-    
-    return(0);
+for (i = 0; i < 8; i++)
+{
+_putchar (c[i]);
+}
+_putchar ('\n');
+return (0);
 }
